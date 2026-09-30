@@ -1,0 +1,26 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Testing and cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+*.zip
+*.log
+
+# Streamlit config
+.streamlit/secrets.toml

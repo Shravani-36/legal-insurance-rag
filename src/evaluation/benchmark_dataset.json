@@ -1,0 +1,66 @@
+[
+  {
+    "id": "eval_01",
+    "domain": "Legal Contract",
+    "question": "What are the termination conditions and required notice period for termination for convenience?",
+    "target_section": "Section 7 - Termination",
+    "expected_keywords": ["30 days", "written notice", "convenience"],
+    "ground_truth_answer": "Either party may terminate the agreement for convenience at any time upon providing thirty (30) days written notice to the other party."
+  },
+  {
+    "id": "eval_02",
+    "domain": "Legal Contract",
+    "question": "Is there a limit on liability, and what is the maximum dollar cap?",
+    "target_section": "Section 6 - Limitation of Liability",
+    "expected_keywords": ["liability", "exceed", "$1,000,000", "fees paid"],
+    "ground_truth_answer": "Yes, aggregate liability is capped at the total amount of fees paid in the twelve months preceding the incident, not to exceed $1,000,000."
+  },
+  {
+    "id": "eval_03",
+    "domain": "Legal Contract",
+    "question": "What insurance coverage types and minimum limits must the vendor maintain?",
+    "target_section": "Section 8 - Insurance Requirements",
+    "expected_keywords": ["commercial general liability", "$2,000,000", "errors and omissions"],
+    "ground_truth_answer": "The vendor must maintain Commercial General Liability of at least $2,000,000 per occurrence and Errors & Omissions coverage of $1,000,000."
+  },
+  {
+    "id": "eval_04",
+    "domain": "Legal Contract",
+    "question": "Can the customer solicit or hire employees of the vendor during the term?",
+    "target_section": "Section 5 - Non-Solicitation",
+    "expected_keywords": ["solicit", "hire", "twelve months", "employee"],
+    "ground_truth_answer": "No, neither party may directly or indirectly solicit, recruit, or hire any employee of the other party during the term and for twelve (12) months thereafter."
+  },
+  {
+    "id": "eval_05",
+    "domain": "Insurance Policy",
+    "question": "What is the annual individual deductible and the maximum out-of-pocket limit?",
+    "target_section": "Schedule B - Deductibles & Cost Sharing",
+    "expected_keywords": ["$1,500", "deductible", "$6,000", "out-of-pocket"],
+    "ground_truth_answer": "The annual individual deductible is $1,500, and the maximum annual out-of-pocket limit is $6,000."
+  },
+  {
+    "id": "eval_06",
+    "domain": "Insurance Policy",
+    "question": "Are flood and earthquake damages covered under the property policy?",
+    "target_section": "Section 4 - Policy Exclusions",
+    "expected_keywords": ["flood", "earthquake", "excluded", "not covered"],
+    "ground_truth_answer": "No, damages resulting from flood, surface water, and earthquake are expressly excluded from coverage unless added by endorsement."
+  },
+  {
+    "id": "eval_07",
+    "domain": "Insurance Policy",
+    "question": "Within how many days must a formal claim and proof of loss be submitted?",
+    "target_section": "Section 5 - Claims Filing and Notice Requirements",
+    "expected_keywords": ["60 days", "proof of loss", "written notice"],
+    "ground_truth_answer": "A written notice of claim must be submitted within 30 days of the occurrence, and full formal proof of loss must be provided within sixty (60) days."
+  },
+  {
+    "id": "eval_08",
+    "domain": "Legal Contract",
+    "question": "Which state's law governs the agreement, and where must disputes be resolved?",
+    "target_section": "Section 10 - Governing Law & Dispute Resolution",
+    "expected_keywords": ["Delaware", "arbitration", "AAA"],
+    "ground_truth_answer": "The agreement is governed by the laws of the State of Delaware, and disputes must be settled by binding arbitration administered by the American Arbitration Association."
+  }
+]
